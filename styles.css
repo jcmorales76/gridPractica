@@ -1,0 +1,35 @@
+h2{
+    text-align: center;
+    color: burlywood;
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+    margin-top: -5px;
+}
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+
+}
+.containerItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+}
+.items{
+    border: 1px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+}
+.img{
+    border: 15px solid black;
+    margin-right: 15px;
+}
